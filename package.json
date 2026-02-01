@@ -1,0 +1,35 @@
+{
+  "name": "@allen-wei/js-utils",
+  "version": "1.0.0",
+  "description": "js 常用工具库",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "sideEffects": false,
+  "keywords": [
+    "utils",
+    "javascript",
+    "工具函数",
+    "tree-shaking",
+    "ESM"
+  ],
+  "author": "allen-wei <allenwei777@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "node test/index.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "rollup": "^4.57.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ww028/ww-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ww028/ww-utils/issues"
+  },
+  "homepage": "https://github.com/ww028/ww-utils#readme"
+}
