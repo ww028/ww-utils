@@ -2,6 +2,9 @@
  * 数组去重
  * @param {Array} arr 目标数组
  * @returns {Array} 去重后的数组
+ * @example
+ * // 返回 [1, 2, 3]
+ * unique([1, 2, 2, 3]);
  */
 export function unique(arr) {
   if (!Array.isArray(arr)) return arr;

@@ -1,0 +1,17 @@
+{
+  "source": {
+    "include": ["src", "index.js"],
+    "includePattern": "\\.js$",
+    "excludePattern": "(node_modules/|dist/)"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "template": "node_modules/minami"
+  },
+  "plugins": ["plugins/markdown"],
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  }
+}
